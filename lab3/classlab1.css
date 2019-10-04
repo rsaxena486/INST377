@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+}
+
+.second_container{
+    display:block;
+    position:relative;
+    top:10px;
+    background-color: pink;
+    height: 150px;
+    text-align: center;
+}
+
+.interior{
+    padding: 5%; 
+}
+
+#wrap{
+    width:485px;
+}
+
+.left{
+    display:block;
+    position:relative;
+    top:30px;
+    float: left;
+    width:500px;
+    height: 123px;
+    text-align: center; 
+    background-color: red;
+}
+
+.right{
+    display:block;
+    position:relative;
+    top:30px;
+    width:500px;
+    background-color: red;
+    height: 123px;
+    float: right;
+}
+
+#largebox{
+    display:block;
+    position:absolute;
+    float:left;
+    bottom:100px;
+    left:457px;
+    width: 450px;
+    height:123px;
+    background-color: lightblue;
+}
